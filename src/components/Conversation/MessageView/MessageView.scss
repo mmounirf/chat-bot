@@ -1,0 +1,19 @@
+.message-container{
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    margin: 0 auto;
+
+    &.from-bot{
+        flex-direction: row;
+    }
+
+    &.from-client{
+        flex-direction: row-reverse;
+    }
+
+    .message-time{
+        font-size: 12px;
+        color: #b1b1b1;
+    }
+}
